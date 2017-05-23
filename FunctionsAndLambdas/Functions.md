@@ -52,7 +52,7 @@ fun powerOf(number: Int, exponent: Int) {
 函数参数可以设置默认值,当参数被忽略时会使用默认值。这样相比其他语言可以减少重载。
 
 ```kotlin
-fun read(b: Array<Byte>, off: Int = 0, len: Int = b.size() ) {
+fun read(b: Array<Byte>, off: Int = 0, len: Int = b.size ) {
 ...
 }
 ```
